@@ -1,7 +1,7 @@
-# error0918.github.io
-error0918.github.io
+# Github.io
+https://error0918.github.io/
 
-# License
+# 라이선스
 - Google Fonts
 - Copyright 2018 The Noto Project Authors (github.com/googlei18n/noto-fonts)
 
