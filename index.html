@@ -1,25 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <meta charset="utf-8">
-    
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      body {
+        padding: 0px;
+        margin: 0px;
+      }
+
+      header {
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       height: 100px;
+       padding-left: 20px;
+       background: #334499;
+       color: white;
+       box-shadow: 0px 5px 50px 1px grey;
+       display: flex;
+       justify-content: left;
+       align-items: center;
+       z-index: 1;
+     }
+
+     main {
+       padding-top: 100px;
+     }
+
+     footer {
+       height: 50px;
+       background: #334499;
+       color: white;
+       box-shadow: 0px -5px 50px 1px grey;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+
+     .card {
+       width: 500px;
+       height: 300px;
+       margin: 50px auto;
+       background: white;
+       border: 1px solid grey;
+       position: relative;
+       border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+       box-shadow: 0px 0px 50px 1px grey;
+     }
+
+     .card-title {
+       width: 460px;
+       height: 50px;
+       padding: 20px;
+       background: #DDDDDD;
+       color: #334499;
+       border-radius: 20px 20px 0px 0px / 20px 20px 0px 0px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+
+     .card-text {
+       padding-left: 20px;
+       padding-right: 20px;
+     }
+
+     .card-go {
+       width: 80px;
+       height: 40px;
+       position: absolute;
+       bottom: 20px;
+       right: 20px;
+     }
+
+     .card-go-button {
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+       background: #FF9977;
+       color: black;
+     }
+    </style>
+
     <title>Error0918</title>
   </head>
   <body>
     <header>
-      <h1 style="text-align:center">
+      <h1>
         <b>Error0918</b>
       </h1>
-      <hr/>
     </header>
-    
+
     <main>
-      <p><a href="https://error0918.github.io/" target="_blank">My Homepage</a></p>
-      <p><a href="https://github.com/error0918/" target="_blank">Github</a></p>
+      <div class="card">
+        <div class="card-title">
+          <h2>My Homepage</h2>
+        </div>
+        <p class="card-text">
+          메인 홈페이지
+        </p>
+        <form class="card-go" action="https://error0918.github.io/">
+          <button class="card-go-button">
+            <h3>Go! -></h3>
+          </button>
+        </form>
+      </div>
+
+      <div style="height: 10px;"></div>
+
+      <div class="card">
+        <div class="card-title">
+          <h2>Github</h2>
+        </div>
+        <p class="card-text">
+          깃허브
+        </p>
+        <form class="card-go" action="https://github.com/error0918/">
+          <button class="card-go-button">
+            <h3>Go! -></h3>
+          </button>
+        </form>
+      </div>
+
+      <div style="height: 10px;"></div>
+
+      <div class="card">
+        <div class="card-title">
+          <h2>KakaoTalk Open Profile</h2>
+        </div>
+        <p class="card-text">
+          카카오톡 오픈 프로필
+        </p>
+        <form class="card-go" action="https://open.kakao.com/me/error">
+          <button class="card-go-button">
+            <h3>Go! -></h3>
+          </button>
+        </form>
+      </div>
+
+      <div style="height: 10px;"></div>
+
+      <div class="card">
+        <div class="card-title">
+          <h2>Instagram</h2>
+        </div>
+        <p class="card-text">
+          인스타그렘
+        </p>
+        <form class="card-go" action="https://instagram.com/jtaeyeon05">
+          <button class="card-go-button">
+            <h3>Go! -></h3>
+          </button>
+        </form>
+      </div>
+
+      <div style="height: 10px;"></div>
+
+      <div class="card">
+        <div class="card-title">
+          <h2>Instagram?</h2>
+        </div>
+        <p class="card-text">
+          인스타그렘?
+        </p>
+        <form class="card-go" action="https://instagram.com/crazy._.taeyeon">
+          <button class="card-go-button">
+            <h3>Go! -></h3>
+          </button>
+        </form>
+      </div>
+                                                                                                                                    <p><a href="https://github.com/error0918/" target="_blank">Github</a></p>
     </main>
-    
-    <footer>
-      <p>by error0918 (jtaeyeon05) (2022/09/09~)</p>
+
+    <footer style="text-align:center;">
+      <p>by jtaeyeon05 (2022/09/09~)</p>
     </footer>
   </body>
 </html>
