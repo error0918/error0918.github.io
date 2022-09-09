@@ -2,8 +2,9 @@
 https://error0918.github.io/
 
 # 라이선스
+
 - Google Fonts
-- Copyright 2018 The Noto Project Authors (github.com/googlei18n/noto-fonts)
+Copyright 2018 The Noto Project Authors (github.com/googlei18n/noto-fonts)
 
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.
